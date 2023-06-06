@@ -1,0 +1,11 @@
+.input_login{
+    background: transparent;
+    border: none;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    text-indent: 20px;
+    color:#69a722;
+    font-size: 14px;
+    outline: 0;
+}

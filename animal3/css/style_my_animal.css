@@ -1,0 +1,106 @@
+*{
+    margin: 0 0;
+    padding: 0 0;
+}
+.buttonBack{
+    margin-top: 100px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-content: center; */
+}
+.custom-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    text-decoration: none;
+    width: 130px;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    /* padding: 10px 25px; */
+    font-family: 'Lato', sans-serif;
+    font-weight:lighter;
+    
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  .btn-14 {
+    background: rgb(255,151,0);
+    border: none;
+    z-index: 0;
+    
+  }
+  .btn-14:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    border-radius: 5px;
+    background-color: #eaf818;
+    background-image: linear-gradient(315deg, #eaf818 0%, #f6fc9c 74%);
+     /* box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5);
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1); */
+     transition: all 0.3s ease;
+  }
+  .btn-14:hover {
+    color: #000;
+  }
+  .btn-14:hover:after {
+    top: auto;
+    bottom: 0;
+    height: 100%;
+  }
+  .btn-14:active {
+    top: 2px;
+  }
+.myAnimal{
+    width: auto;
+    height: auto;
+    display: grid;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    align-content: flex-start;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.post{
+    border: solid black 1px;
+    /* max-width: 200px;
+    max-height: 300px; */
+    width: 200px;
+    height: 300px;    
+}
+.name_animal{
+    text-align: center;
+}
+.discription{
+    margin-left: 10px;
+}
+.buttonCards{
+  /* margin-top: 100px; */
+    width: auto;
+    height: 150px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+    align-items: center;
+}
